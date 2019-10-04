@@ -4,9 +4,9 @@
 class Yext < Formula
   desc "Yext Command Line Interface"
   homepage "www.yext.com"
-  url "https://docs.google.com/uc?id=1JkUYe5Qzta1ZCq7lENIeQuVtAHBno0wB&amp;export=download"
+  url "https://yext-cli-dev.s3.amazonaws.com/cli/mac/yext"
   version "0.1"
-  sha256 "56986086c4cbfdd1998bfc3f8b6a0e196cc9bb4ed68400094c6aa6d1837a47d7"
+  sha256 "e3511b0295cd290025d925ef46dc00bfb457fc9c5c887b79b33012d2de9987b5"
 
   # depends_on "cmake" => :build
 
