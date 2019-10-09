@@ -4,7 +4,7 @@ class Yext < Formula
   homepage "http://www.yext.com"
   url "https://yext-cli-pub.s3.amazonaws.com/cli/mac/yext"
   version "0.1"
-  sha256 "39e09092d8c76e7dc8d178ffb8dd7c140319d94eb9b57da06493f02f902421de"
+  sha256 "0c8d9b8b7cbf095b534290a82050592d8a608197faabc89009c5b8346629ccac"
   revision 2
 
   def install
