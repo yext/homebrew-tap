@@ -2,6 +2,7 @@
 class Yext < Formula
   desc "Command-line Interface for Yext Platform"
   homepage "http://www.yext.com"
+  depends_on "git"
   url "https://yext-cli-pub.s3.amazonaws.com/cli/mac/yext-be461ba389553267a4cbe740b6f160ba"
   version "0.1"
   sha256 "a847c7e20da38cf1dfbe6174fbe9e5d4ffac6a8295fd7eb9d715782cec6c191b"
