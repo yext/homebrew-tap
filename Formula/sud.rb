@@ -3,13 +3,13 @@ class Sud < Formula
   desc "Command-line Interface for sud"
   homepage "http://www.yext.com"
   depends_on "git"
-  url "https://yext-cli-pub.s3.amazonaws.com/sud/mac/sud-304fa79bfd724d17b34f0294b60e04d7"
+  url "https://yext-cli-pub.s3.amazonaws.com/sud/mac/sud-33081d87bc6adf06de0c5f9c12a718a3"
   version "0.1"
-  sha256 "8c799ae5240f95c9406f3bb2bc6eb07a0f47fd5cd32a0f247d0c8d12513a619b"
-  revision 3
+  sha256 "f1f6a4ab967bd19de91045118e0ac6fa225391a2e5200c091b663ba29eaf658c"
+  revision 4
 
   def install
-    mv "sud-304fa79bfd724d17b34f0294b60e04d7", "sud"
+    mv "sud-33081d87bc6adf06de0c5f9c12a718a3", "sud"
     bin.install "sud"
   end
 
