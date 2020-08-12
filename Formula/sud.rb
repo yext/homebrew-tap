@@ -3,9 +3,8 @@ class Sud < Formula
   desc "Command-line Interface for sud"
   homepage "http://www.yext.com"
   depends_on "git"
-  url "https://github.com/yext/sud/releases/download/v0.1.15/sud-f27731f3df542eff42b4029c1f22db314715037f282faa043a20f49a0ff49a09"
-  version "v0.1"
-  revision 9
+  url "https://github.com/yext/sud/releases/download/v0.1_16_16/sud-f27731f3df542eff42b4029c1f22db314715037f282faa043a20f49a0ff49a09"
+  version "v0.1_16"
   sha256 "f27731f3df542eff42b4029c1f22db314715037f282faa043a20f49a0ff49a09"
   def install
     mv "sud-f27731f3df542eff42b4029c1f22db314715037f282faa043a20f49a0ff49a09", "sud"
