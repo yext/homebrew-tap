@@ -3,13 +3,13 @@ class Yext < Formula
   desc "Command-line Interface for Yext Platform"
   homepage "http://www.yext.com"
   depends_on "git"
-  url "https://yext-cli-pub.s3.amazonaws.com/cli/mac/yext-dbaa334977937c21314952ce22e0158c"
+  url "https://yext-cli-pub.s3.amazonaws.com/cli/mac/yext-b859e6c77d78587fa4a2a56c0c002e7b"
   version "0.1"
-  sha256 "575eef0ae70592cdadfd782b1ed8af7dee9f96cc863050a8216001eeff4e4c70"
-  revision 50
+  sha256 "e362c07efe7442c250877e531ccbc65df2aefd9fc6216f2c1a01df4ac454bb46"
+  revision 51
 
   def install
-    mv "yext-dbaa334977937c21314952ce22e0158c", "yext"
+    mv "yext-b859e6c77d78587fa4a2a56c0c002e7b", "yext"
     bin.install "yext"
   end
 
