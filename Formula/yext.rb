@@ -4,13 +4,13 @@ class Yext < Formula
   homepage "http://www.yext.com"
   depends_on "git"
   depends_on "bash-completion" => :recommended
-  url "https://yext-cli-pub.s3.amazonaws.com/cli/mac/yext-6f6767683e313ac8616f8e03ef1b2712"
+  url "https://yext-cli-pub.s3.amazonaws.com/cli/mac/yext-6b46660c39592cb45a824cef26343771"
   version "0.1"
-  sha256 "b297700e85023997a515defc5f3547e7416d0ce8b3ec5499a7e9ec35befe9ca9"
-  revision 56
+  sha256 "e84e629e7a88e4855108ebbcc76d2d356b9e1475d625f83a87758466f8d46d4e"
+  revision 57
 
   def install
-    mv "yext-6f6767683e313ac8616f8e03ef1b2712", "yext"
+    mv "yext-6b46660c39592cb45a824cef26343771", "yext"
     bin.install "yext"
   end
 
