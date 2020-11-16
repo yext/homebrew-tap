@@ -12,6 +12,13 @@ class Yext < Formula
   def install
     mv "yext-0e16b321465f7e094c670783e9b255e5", "yext"
     bin.install "yext"
+
+    output = Utils.safe_popen_read("#{bin}/yext", "completion", "bash")
+    (bash_completion/"yext").write output
+
+    output = Utils.safe_popen_read("#{bin}/yext", "completion", "zsh")
+    (zsh_completion/"_yext").write output
+
   end
 
   test do
