@@ -13,18 +13,23 @@ class Yext < Formula
     mv "yext-0e16b321465f7e094c670783e9b255e5", "yext"
     bin.install "yext"
 
+    # s3 doesnt retain file permissions, so have to do this to add autocomplete
+    system "chmod +x #{bin}/yext"
+
+    # add bash autocomplete
     output = Utils.safe_popen_read("#{bin}/yext", "completion", "bash")
     (bash_completion/"yext").write output
 
+    # add zsh autocomplete
     output = Utils.safe_popen_read("#{bin}/yext", "completion", "zsh")
     (zsh_completion/"_yext").write output
-
+  
   end
 
   test do
     system "#{bin}/yext", "--help"
     infout = testpath/"info.out"
     system "#{bin}/yext", "info", infout
-    assert_predicate infout, :exist?    
+    assert_predicate infout, :exist?
   end
 end
