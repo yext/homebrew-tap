@@ -7,7 +7,7 @@ class Yext < Formula
   url "https://yext-cli-pub.s3.amazonaws.com/cli/mac/yext-452784cc251aafe8a24d77723454bedd"
   version "0.1"
   sha256 "e682e21c643b952ee9e966157727e748cd785e8c65b8acd7013ac8f367762778"
-  revision 77
+  revision 81
 
   def install
     mv "yext-452784cc251aafe8a24d77723454bedd", "yext"
