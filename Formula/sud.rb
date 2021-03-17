@@ -8,7 +8,7 @@ class Sud < Formula
   revision 9
   sha256 "ad8a666f766bf0d7f8d07975663035181f8a6e8554a5d93e31ca50d09ced4159"
   def install
-    mv "sud-7b2eaac08884fd41a099cd8d55dde1a70d421dd4d7bfe8c192d08bbaa51cc4f0", "sud"
+    mv "sud-ad8a666f766bf0d7f8d07975663035181f8a6e8554a5d93e31ca50d09ced4159", "sud"
     bin.install "sud"
   end
 
