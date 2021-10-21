@@ -4,13 +4,13 @@ class Yext < Formula
   homepage "http://www.yext.com"
   depends_on "git"
   depends_on "bash-completion" => :recommended
-  url "https://yext-cli-pub.s3.amazonaws.com/cli/mac/yext-6160f32b415cb0d17461f8f646a2cae8"
+  url "https://yext-cli-pub.s3.amazonaws.com/cli/mac/yext-a0ab5b747746dfad66a777b11a500bb0"
   version "0.1"
-  sha256 "4d55cb2768c78c571224a92810681509ef983237729aaae26d287fd990873e91"
-  revision 186
+  sha256 "5c800b7f289a7077dd195267538e39080bfb70839968eb836dda30415f743c0c"
+  revision 192
 
   def install
-    mv "yext-6160f32b415cb0d17461f8f646a2cae8", "yext"
+    mv "yext-a0ab5b747746dfad66a777b11a500bb0", "yext"
     bin.install "yext"
 
     # s3 doesnt retain file permissions, so have to do this to add autocomplete
