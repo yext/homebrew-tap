@@ -3,7 +3,7 @@ class Yext < Formula
   desc "Command-line Interface for Yext Platform"
   homepage "http://www.yext.com"
   depends_on "git"
-  depends_on "bash-completion" => :recommended
+  depends_on "bash-completion@2" => :recommended
   url "https://yext-cli-pub.s3.amazonaws.com/cli/mac/yext-2f23fcc31c3a7d43afc09a8764eb98b3"
   version "0.1"
   sha256 "2ce11525599ac1e96c24fa50e206abe054180b59aa74121a95637eedd0cd9fc7"
